@@ -31,7 +31,7 @@ GDAL_LIBRARY_PATH = r"C:\OSGeo4W\bin\gdal305"
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-9tj@#dvdg5h3ycwzph%d19sg=9o3&dx4uqf)j=8jl1y_jlrfc&'
+SECRET_KEY = 'ADD-YOUR-KEY-HERE'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -89,11 +89,11 @@ WSGI_APPLICATION = 'bookmark_note.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
-        'NAME': 'notes_app',
-        'USER':'postgres',
-        'PASSWORD':'1965',
-        'HOST':'localhost',     
-        'PORT':'5432',
+        'NAME': '',
+        'USER':'',
+        'PASSWORD':'',
+        'HOST':'',     
+        'PORT':'',
     }
 }
 
